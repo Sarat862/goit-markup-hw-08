@@ -1,27 +1,39 @@
 .logo {
-
     font-family: var(--secondary-font-family);
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
-.header__logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-
-.footer__logo {
-    display: block;
-    margin-bottom: 20px;
-}
-
 .header__logo_theme_light {
-    color: #000000;
+    color: var(--primary-color-text);
 }
 
-.footer__logo_theme_dark {
-    color: var(--text-color-theme-dark);
-}
+// .logo {
+//     font-family: var(--secondary-font-family);
+//     font-weight: 700;
+//     font-size: 26px;
+//     line-height: 1.19;
+//     letter-spacing: 0.03em;
+//     color: var(--accent-color);
+// }
+
+// .header__logo {
+//     padding-top: 24px;
+//     padding-bottom: 25px;
+// }
+
+// .footer__logo {
+//     display: block;
+//     margin-bottom: 20px;
+// }
+
+// .header__logo_theme_light {
+//     color: #000000;
+// }
+
+// .footer__logo_theme_dark {
+//     color: var(--text-color-theme-dark);
+// }
