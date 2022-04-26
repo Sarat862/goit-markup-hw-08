@@ -17,6 +17,8 @@
     color: var(--primary-color-text);
 }
 
+// ============= 768+ =============
+
 @media screen and (min-width: 768px) {
     .header__logo {
         padding-top: 26px;
@@ -24,27 +26,23 @@
     }
 }
 
-// .logo {
-//     font-family: var(--secondary-font-family);
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-//     color: var(--accent-color);
-// }
+// ============= 1200+ =============
 
-// .header__logo {
-//     padding-top: 24px;
-//     padding-bottom: 25px;
-// }
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-size: 26px;
+        line-height: 1.19;
+    }
+
+    .header__logo {
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
+}
 
 // .footer__logo {
 //     display: block;
 //     margin-bottom: 20px;
-// }
-
-// .header__logo_theme_light {
-//     color: #000000;
 // }
 
 // .footer__logo_theme_dark {

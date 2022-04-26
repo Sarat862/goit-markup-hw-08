@@ -5,7 +5,9 @@
 @import './base/container';
 
 @import './components/modal-btn';
-@import './components/logo';
+@import './components/header/logo';
+@import './components/header/navigation';
+@import './components/header/contact';
 @import './components/caption-title';
 @import './components/social-list';
 @import './components/footer-main-text';
