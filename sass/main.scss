@@ -5,18 +5,18 @@
 @import './base/container';
 
 @import './components/modal-btn';
-@import './components/header/logo';
-@import './components/header/navigation';
-@import './components/header/contact';
 @import './components/caption-title';
 @import './components/social-list';
 @import './components/footer-main-text';
 @import './components/backdrop';
-@import './components/mobile-menu';
 
-@import './layouts/header';
-@import './layouts/hero';
-@import './layouts/features';
+@import './layouts/header/header';
+@import './layouts/header/logo';
+@import './layouts/header/navigation';
+@import './layouts/header/contact';
+@import './layouts/header/mobile-menu';
+@import './layouts/main/hero';
+@import './layouts/main/features';
 @import './layouts/work-company';
 @import './layouts/developer-company';
 @import './layouts/clients-list';
