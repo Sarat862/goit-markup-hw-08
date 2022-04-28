@@ -1,0 +1,58 @@
+.projects-filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.projects-filters__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.projects-filters__item {
+    margin-bottom: 15px;
+}
+
+.projects-filters__btn {
+    padding: 6px 22px;
+    background-color: var(--secondary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--primary-color-text);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--text-color-theme-dark);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
+}
+
+// ================= 768+ =================
+
+@media screen and (min-width: 768px) {
+    
+    .projects-filters {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .projects-filters__item {
+        margin-bottom: 0;
+    }
+}
+
+// ==================== 1200+ ====================
+
+@media screen and (min-width: 1200px) {
+
+    .projects-filters {
+        margin-bottom: 50px;
+    }
+}
