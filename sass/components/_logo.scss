@@ -17,6 +17,15 @@
     color: var(--primary-color-text);
 }
 
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer__logo_theme_dark {
+    color: var(--text-color-theme-dark);
+}
+
 // ============= 768+ =============
 
 @media screen and (min-width: 768px) {

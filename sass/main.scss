@@ -4,22 +4,23 @@
 @import './base/common';
 @import './base/container';
 
+@import './components/logo';
 @import './components/modal-btn';
 @import './components/caption-title';
 @import './components/social-list';
 @import './components/footer-main-text';
 @import './components/backdrop';
 
-@import './layouts/header/header';
-@import './layouts/header/logo';
-@import './layouts/header/navigation';
-@import './layouts/header/contact';
-@import './layouts/header/mobile-menu';
-@import './layouts/main/hero';
-@import './layouts/main/features';
-@import './layouts/main/work-company';
-@import './layouts/main/developer-company';
-@import './layouts/clients-list';
-@import './layouts/footer';
+@import './layouts/1header/header';
+@import './layouts/1header/navigation';
+@import './layouts/1header/contact';
+@import './layouts/1header/mobile-menu';
+@import './layouts/2main/hero';
+@import './layouts/2main/features';
+@import './layouts/2main/work-company';
+@import './layouts/2main/developer-company';
+@import './layouts/2main/clients-list';
+@import './layouts/3footer/footer';
+@import './layouts/3footer/footer-form';
 @import './layouts/projects-company';
 
