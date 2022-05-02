@@ -1,14 +1,7 @@
 .clients-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -30px;
-    margin-left: -30px;
-}
-
-.clients-list-item {
-    flex-basis: calc((100% - 60px) / 2);
-    margin-top: 30px;
-    margin-left: 30px;
+    gap: 30px;
 }
 
 .clients-list-link {
@@ -32,10 +25,6 @@
 // ============= 768+ =============
 
 @media screen and (min-width: 768px) {
-    
-    .clients-list-item {
-        flex-basis: calc((100% - 90px) / 3);
-    }
 
     .clients-list-link {
         width: 226px;
@@ -45,13 +34,6 @@
 // ================ 1200+ ================
 
 @media screen and (min-width: 1200px) {
-    .clients-list {
-        justify-content: center;
-    }
-
-    .clients-list-item {
-        flex-basis: calc((100% - 180px) / 6);
-    }
 
     .clients-list-link {
         width: 170px;

@@ -1,5 +1,7 @@
-.nav-list {
-    display: none;
+@media screen and (max-width: 767px) {
+    .nav-list {
+        display: none;
+    }
 }
 
 // ========== 768+ ==========
@@ -15,8 +17,8 @@
         margin-left: 88px;
     }
 
-    .nav-list__item:not(:first-child) {
-        margin-left: 50px;
+    .nav-list__item:not(:last-child) {
+        margin-right: 50px;
     }
 
     .nav-list__link {

@@ -2,6 +2,7 @@
     background-color: var(--secondary-background-color);
 }
 
+
 .developer-company-item {
     margin-bottom: 30px;
     background-color: var(--text-color-theme-dark);
@@ -45,14 +46,10 @@
     .developer-company-list {
         display: flex;
         flex-wrap: wrap;
-        margin-top: -30px;
-        margin-left: -30px;
+        gap: 30px;
     }
     
     .developer-company-item {
-        flex-basis: calc((100% - 60px) / 2);
-        margin-top: 30px;
-        margin-left: 30px;
         margin-bottom: 0;
     }
     
@@ -71,16 +68,6 @@
 // ============== 1200+ ==============
 
 @media screen and (min-width: 1200px) {
-    
-    .developer-company-list {
-        flex-wrap: nowrap;
-        margin-left: -30px;
-    }
-
-    .developer-company-item {
-        flex-basis: calc((100% - 120px) / 4);
-        margin-left: 30px;
-    }
 
     .developer-company-box {
         padding-top: 30px;
