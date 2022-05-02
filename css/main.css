@@ -30,6 +30,10 @@ body {
   color: var(--primary-color-text);
 }
 
+body.is-open {
+  overflow: hidden;
+}
+
 .link {
   text-decoration: none;
 }
@@ -518,11 +522,15 @@ img {
 }
 
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
+  padding: 40px;
   z-index: 20;
   overflow: auto;
   background-color: var(--text-color-theme-dark);
@@ -575,10 +583,6 @@ img {
 .mobile-menu__wrapper {
   margin-left: 25px;
   margin-right: 25px;
-}
-
-.mobile-nav-list {
-  margin-bottom: 302px;
 }
 
 .mobile-nav-list__item:not(:last-child) {

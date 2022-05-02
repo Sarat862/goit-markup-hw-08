@@ -3,6 +3,8 @@ body {
     color: var(--primary-color-text);
 }
 
+body.is-open{overflow: hidden;}
+
 .link {
     text-decoration: none;
 }
