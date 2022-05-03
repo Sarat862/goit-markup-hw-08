@@ -1,9 +1,5 @@
-
-
 .footer-form-input {
-    margin-bottom: 20px;
-    display: block;
-    width: 450px;
+    display: block;   
     height: 50px;
     padding-left: 16px;
 
@@ -26,9 +22,18 @@
     }
 }
 
-.footer-form-icon {
-    margin-left: 10px;
+@media screen and (max-width: 1199px) {
+    .footer-form-input {
+        margin-bottom: 20px;
+        width: 450px;
+    }
+
+    .footer-form-icon {
+        margin-left: 10px;
+    }
 }
+
+
 
 // ================ 1200+ ================
 
@@ -40,7 +45,6 @@
 
     .footer-form-input {
         margin-right: 12px;
-        margin-bottom: 0;
         width: 358px;
     }
 

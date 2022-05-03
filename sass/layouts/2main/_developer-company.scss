@@ -2,16 +2,16 @@
     background-color: var(--secondary-background-color);
 }
 
+@media screen and (max-width: 767px) {
+    .developer-company-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
 
 .developer-company-item {
-    margin-bottom: 30px;
     background-color: var(--text-color-theme-dark);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-
-    &:last-child {
-        margin-bottom: 0;
-    }
+    border-radius: 0px 0px 4px 4px;    
 }
 
 .developer-company-box {
@@ -47,10 +47,6 @@
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-    }
-    
-    .developer-company-item {
-        margin-bottom: 0;
     }
     
     .developer-company-box {

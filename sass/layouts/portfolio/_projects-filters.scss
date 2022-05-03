@@ -1,15 +1,10 @@
-.projects-filters {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
-
-.projects-filters__item:not(:last-child) {
-    margin-right: 8px;
-}
-
-.projects-filters__item {
-    margin-bottom: 15px;
+@media screen and (max-width: 767px) {
+    .projects-filters {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        gap: 15px 8px;
+    }
 }
 
 .projects-filters__btn {
@@ -39,12 +34,13 @@
 @media screen and (min-width: 768px) {
     
     .projects-filters {
+        display: flex;
         justify-content: center;
         margin-bottom: 30px;
     }
 
-    .projects-filters__item {
-        margin-bottom: 0;
+    .projects-filters__item:not(:last-child) {
+        margin-right: 8px;
     }
 }
 

@@ -9,15 +9,6 @@
 
 @media screen and (min-width: 768px) {
     
-    .contact-list {
-        padding-top: 21px;
-        padding-bottom: 21px;
-    }
-    
-    .contact-list__item:first-child {
-        margin-bottom: 10px;
-    }
-
     .contact-list__link {
         display: flex;
         align-items: center;
@@ -40,19 +31,28 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .contact-list {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+
+    .contact-list__item:first-child {
+        margin-bottom: 10px;
+    }
+}
+
 // ======== 1200+ =============
 
 @media screen and (min-width: 1200px) {
     
     .contact-list {
         display: flex;
-        padding-top: 0;
-        padding-bottom: 0;
     }
 
     .contact-list__item:first-child {
         margin-right: 50px;
-        margin-bottom: 0;
     }
 
     .contact-list__link {
